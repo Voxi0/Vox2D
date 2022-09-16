@@ -1,0 +1,13 @@
+V1.0 -
+    > Created Build Mechanism
+    > Created Camera 
+    > Created 2D Player
+
+V1.1 -
+    > Added zlib License
+    > Added Block Textures
+    > Changed Block Highlight Color
+    > Added Sounds (Background Music, Block Placing)
+    > Added Camera Zoom In and Out 
+    > Recreated Player Better than Before
+    > Updated README.txt 

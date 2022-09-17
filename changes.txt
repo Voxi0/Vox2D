@@ -18,3 +18,6 @@ V1.1 -
 V1.2 -
     > Created Simple Inventory System to Choose Textures with Numbers
     > Added Cobblestone Texture
+    > Added Controls to Set Game Render Mode
+    > Added Ursina Splash Screen
+    > Player is Automatically Spawned as to Avoid Bugs

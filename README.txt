@@ -29,6 +29,12 @@ Controls:
 			4) Cobblestone
 		
 		Pressing any of these numbers can change textures.
+	
+	Render Mode -
+		There are 4 render modes. "Normal", "Wireframe" and "Collider". Key Mapping:
+			Default = "H"
+			Wireframe = "J"
+			Collider = "K"
 
 There is only one block in the world by default. You can just create new blocks to make your own map
 to your liking by following the controls.

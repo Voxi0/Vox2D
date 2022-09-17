@@ -117,10 +117,24 @@ class Block(Button):
                     if key == "left arrow":
                         Block(position = self.position + (-1,0), texture = cobblestone)
 
-# UI
 app = Ursina()
+
+# UI
+window.title = "Vox2D"
+window.icon = "icon.ico"
+window.borderless = False
+window.show_ursina_splash = True
 window.fullscreen = True
+window.render_mode = "default"
 window.cog_button.visible = False 
+
+# Camera
+camera.parent = scene
+camera.fov = 40
+
+# Player
+player = Player(pos = (0,5))   
+camera.add_script(SmoothFollow(target=player, offset=[0,1,-30])) 
 
 # Textures
 grass_block = load_texture("assets/textures/grass_block.png")
@@ -155,25 +169,24 @@ def update():
 # World 
 Block(position = (0,0))
 
-# Camera
-camera.parent = scene
-camera.fov = 40
-
 # Input
 def input(key):
         # Quit Game
         if key == "escape":
             sys.exit(0) 
         
-        # Spawn Player
-        if key == "middle mouse down":
-            player = Player(pos = (0,5))   
-            camera.add_script(SmoothFollow(target=player, offset=[0,1,-30])) 
-        
         # Camera Zoom        
         if key == "-":
             camera.fov += 10
         if key == "+":
-            camera.fov -= 10   
+            camera.fov -= 10 
+             
+        # Change Render Mode
+        if key == "h":
+            window.render_mode = "default"
+        if key == "j":
+            window.render_mode = "wireframe"
+        if key == "k":
+            window.render_mode = "colliders"
            
 app.run()

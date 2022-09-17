@@ -21,3 +21,4 @@ V1.2 -
     > Added Controls to Set Game Render Mode
     > Added Ursina Splash Screen
     > Player is Automatically Spawned as to Avoid Bugs
+    > Player is Now Spawned at (x = 0, y = 2)

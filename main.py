@@ -133,7 +133,7 @@ camera.parent = scene
 camera.fov = 40
 
 # Player
-player = Player(pos = (0,5))   
+player = Player(pos = (0,2))   
 camera.add_script(SmoothFollow(target=player, offset=[0,1,-30])) 
 
 # Textures

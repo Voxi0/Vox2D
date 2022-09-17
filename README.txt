@@ -4,7 +4,7 @@ the foundation(Building System, Camera, Blocks) etc.
 
 Controls:
  	Player -
-		Middle Mouse Button = Spawn Player (Always Spawn One)
+		MMB = Spawn Player (Always Spawn One)
 		WASD = Move Player (Red Cube)
 		Space = Jump
 

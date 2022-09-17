@@ -48,78 +48,54 @@ class Block(Button):
                 # Grass
                 if block == 1:
                     # Up
-                    if key == "8":
-                        Block(position = self.position + (0,1), texture = grass_block) 
                     if key == "up arrow":
                         Block(position = self.position + (0,1), texture = grass_block)
                         
                     # Down
-                    if key == "2":
-                        Block(position = self.position + (0,-1), texture = grass_block)  
                     if key == "down arrow":
                         Block(position = self.position + (0,-1), texture = grass_block) 
                     
-                    # Right
-                    if key == "6":
-                        Block(position = self.position + (1,0), texture = grass_block)  
+                    # Right 
                     if key == "right arrow":
                         Block(position = self.position + (1,0), texture = grass_block)
                  
                     # Left     
-                    if key == "4":
-                        Block(position = self.position + (-1,0), texture = grass_block)  
                     if key == "left arrow":
                         Block(position = self.position + (-1,0), texture = grass_block)
                 
                 # Dirt
                 if block == 2:
                     # Up
-                    if key == "8":
-                        Block(position = self.position + (0,1), texture = dirt_block) 
                     if key == "up arrow":
                         Block(position = self.position + (0,1), texture = dirt_block)  
                     
                     # Down
-                    if key == "2":
-                        Block(position = self.position + (0,-1), texture = dirt_block)  
                     if key == "down arrow":
                         Block(position = self.position + (0,-1), texture = dirt_block)
                         
-                    # Right
-                    if key == "6":
-                        Block(position = self.position + (1,0), texture = dirt_block)  
+                    # Right 
                     if key == "right arrow":
                         Block(position = self.position + (1,0), texture = dirt_block)
                  
                     # Left     
-                    if key == "4":
-                        Block(position = self.position + (-1,0), texture = dirt_block)  
                     if key == "left arrow":
                         Block(position = self.position + (-1,0), texture = dirt_block)
                 
                 # Dark Oak Log
                 if block == 3:
                     # Up
-                    if key == "8":
-                        Block(position = self.position + (0,1), texture = dark_oak_log) 
                     if key == "up arrow":
                         Block(position = self.position + (0,1), texture = dark_oak_log)  
 
-                    # Down
-                    if key == "2":
-                        Block(position = self.position + (0,-1), texture = dark_oak_log)  
+                    # Down 
                     if key == "down arrow":
                         Block(position = self.position + (0,-1), texture = dark_oak_log)   
                     
                     # Right
-                    if key == "6":
-                        Block(position = self.position + (1,0), texture = dark_oak_log)  
                     if key == "right arrow":
                         Block(position = self.position + (1,0), texture = dark_oak_log)
                  
                     # Left     
-                    if key == "4":
-                        Block(position = self.position + (-1,0), texture = dark_oak_log)  
                     if key == "left arrow":
                         Block(position = self.position + (-1,0), texture = dark_oak_log)
             

@@ -13,3 +13,4 @@ V1.1 -
     > Added Camera Zoom In and Out 
     > Recreated Player Better than Before
     > Updated README.txt 
+    > Removed Numpad Support for Building. Can No Longer Create Blocks with Number Keys.

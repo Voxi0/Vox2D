@@ -31,7 +31,7 @@ Controls:
 		Pressing any of these numbers can change textures.
 	
 	Render Mode -
-		There are 4 render modes. "Normal", "Wireframe" and "Collider". Key Mapping:
+		There are 3 render modes. "Normal", "Wireframe" and "Collider". Key Mapping:
 			Default = "H"
 			Wireframe = "J"
 			Collider = "K"

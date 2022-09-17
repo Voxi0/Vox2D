@@ -1,12 +1,12 @@
 V1.0 -
-	 > Named "Minecraft 2D"
+	> Named "Minecraft 2D"
     > Created Build Mechanism
     > Created Camera 
     > Created 2D Player
 
 V1.1 -
-	 > Renamed to "Vox2D"
-	 > Put up project in GitHub Repo: https://github.com/Voxi0/Vox2D
+    > Renamed to "Vox2D"
+	> Put up project in GitHub Repo: https://github.com/Voxi0/Vox2D
     > Added zlib License
     > Added Block Texture (Only Grass Block)
     > Changed Block Highlight Color

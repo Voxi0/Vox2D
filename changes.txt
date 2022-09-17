@@ -8,7 +8,7 @@ V1.1 -
     > Renamed to "Vox2D"
 	> Put up project in GitHub Repo: https://github.com/Voxi0/Vox2D
     > Added zlib License
-    > Added Block Texture (Only Grass Block)
+    > Added Block Textures (3 Textures (Grass Block, Dirt Block, Dark Oak Log))
     > Changed Block Highlight Color
     > Added Camera Zoom In and Out 
     > Recreated Player Better than Before

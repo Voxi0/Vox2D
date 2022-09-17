@@ -20,7 +20,14 @@ Controls:
 	Camera -
 		Press + to Zoom In
 		Press - to Zoom Out
-
+	
+	Textures -
+		Currently, there are 3 textures in Vox2D. They are:
+			1) Grass Block 
+			2) Dirt Block 
+			3) Dark Oak Log
+		
+		Pressing any of these numbers can change textures.
 
 There is only one block in the world by default. You can just create new blocks to make your own map
 to your liking by following the controls.

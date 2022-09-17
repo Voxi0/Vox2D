@@ -98,7 +98,25 @@ class Block(Button):
                     # Left     
                     if key == "left arrow":
                         Block(position = self.position + (-1,0), texture = dark_oak_log)
-            
+                    
+                # Cobblestone
+                if block == 4:
+                    # Up
+                    if key == "up arrow":
+                        Block(position = self.position + (0,1), texture = cobblestone)  
+
+                    # Down 
+                    if key == "down arrow":
+                        Block(position = self.position + (0,-1), texture = cobblestone)   
+                    
+                    # Right
+                    if key == "right arrow":
+                        Block(position = self.position + (1,0), texture = cobblestone)
+                 
+                    # Left     
+                    if key == "left arrow":
+                        Block(position = self.position + (-1,0), texture = cobblestone)
+
 # UI
 app = Ursina()
 window.fullscreen = True
@@ -108,21 +126,31 @@ window.cog_button.visible = False
 grass_block = load_texture("assets/textures/grass_block.png")
 dirt_block = load_texture("assets/textures/dirt.png")
 dark_oak_log = load_texture("assets/textures/dark_oak_log.png")
+cobblestone = load_texture("assets/textures/cobblestone.png")
 
 # Inventory
 block = 1
 
 def update():
     global block
+    # Grass
     if held_keys["1"]:
         block = 1
         #grass = Text(parent = camera.ui, text = "(1) Grass Block", scale = 2, origin = (2.1, -9), text_color = "white")
+        
+    # Dirt
     if held_keys["2"]:
         block = 2
         #dirt = Text(parent = camera.ui, text = "(2) Dirt Block", scale = 2, origin = (2.5, -9), text_color = "white")
+        
+    # Dark Oak Log
     if held_keys["3"]:
         block = 3
         #dark_log = Text(parent = camera.ui, text = "(3) Dark Oak Log", scale = 2, origin = (1.8, -9), text_color = "white")
+    
+    # Cobblestone
+    if held_keys["4"]:
+        block = 4
 
 # World 
 Block(position = (0,0))

@@ -7,7 +7,7 @@ target = Executable(
 
 setup(
     name="Vox2D",
-    version=1.1,
+    version=1.2,
     description="2D-Voxel Game Made With Python and Ursina.",
     author = "Voxi0",
     options={"build_exe": {"packages": ["ursina"]}},

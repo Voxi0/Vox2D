@@ -14,3 +14,7 @@ V1.1 -
     > Recreated Player Better than Before
     > Updated README.txt 
     > Removed Numpad Support for Building. Can No Longer Create Blocks with Number Keys.
+
+V1.2 -
+    > Created Simple Inventory System to Choose Textures with Numbers
+    > Added Cobblestone Texture

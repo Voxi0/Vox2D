@@ -26,6 +26,7 @@ Controls:
 			1) Grass Block 
 			2) Dirt Block 
 			3) Dark Oak Log
+			4) Cobblestone
 		
 		Pressing any of these numbers can change textures.
 
